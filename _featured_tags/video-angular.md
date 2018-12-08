@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Things
-slug: things
-category: review
+title: Angular
+slug: angular
+category: video
 menu: false
 order: 1
 ---
