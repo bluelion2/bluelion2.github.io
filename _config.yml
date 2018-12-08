@@ -13,12 +13,12 @@ url:                 https://bluelion2.github.io
 baseurl:             ""
 
 # A very short description of your page
-tagline:             커피를 좋아하는 개발자 입니다.
+tagline:             커피와 책을 좋아하는 개발자 입니다.
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
- 커피를 좋아하는 개발자 입니다.
+ 커피와 책을 좋아하는 개발자 입니다.
  다른사람들과 만나 즐겁게 이야기 하고 싶습니다. 
 
 # This should be the same author as first entry in `_data/authors.yml`
