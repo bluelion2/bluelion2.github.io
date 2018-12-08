@@ -14,7 +14,5 @@ Google Developer Festival
 
 - 실전 SPA 상태관리 톺아보기 : https://drive.google.com/file/d/1f4UHB-jvN5w_qtdIhhUArjsK3jwnVbAY/view?usp=drive_open
 
-- 실전 SPA 상태관리 톺아보기
-
 - Use js more strictly : https://drive.google.com/file/d/1W1VMAI80YJ3D3oCsIJWQasrhl8qVq2q5/view
 
