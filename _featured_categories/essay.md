@@ -6,5 +6,5 @@ menu: true
 submenu: false
 order: 4
 description: >
-  평소 생각과 쓰고싶은 글을 씁니다.
+  일상, 신변의 잡글들을 적고 있습니다. 
 ---
