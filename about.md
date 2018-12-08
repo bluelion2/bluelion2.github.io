@@ -31,7 +31,7 @@ Angular를 주로 사용하며, 다른 프레임워크 또한 공부하는 프�
 
 ## 사이드프로젝트
 
-- 패스트 캠퍼스 졸업 프로젝트 OverEats 프론트엔드 개발 협업 : (https://github.com/FastCampusTeamTwo)
+- 패스트 캠퍼스 졸업 프로젝트 OverEats 프론트엔드 개발 협업 : [OverEats](https://github.com/FastCampusTeamTwo)
 
 ## 하고싶은 말
 
