@@ -7,7 +7,7 @@ tags: javascript
 comments: true
 ---
 
-201807/26 작성한 포스트를 옮겨 옵니다. [원문 link](https://github.com/bluelion2/bluelion2.github/edit/master/_posts/2018-07-26-JS%20new%20Date().md)
+201807/26 작성한 포스트를 옮겨 옵니다. [원문 link](https://github.com/bluelion2/bluelion2.github/blob/master/_posts/2018-07-26-JS%20new%20Date().md)
 
 # JS new Date()함수때문에 일어난 삽질
 

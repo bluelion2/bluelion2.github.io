@@ -7,7 +7,7 @@ tags: javascript
 comments: true
 ---
 
-2018/06/26 포스트를 옮겨 옵니다. [원문 링크](https://github.com/bluelion2/bluelion2.github/edit/master/_posts/2018-06-23-%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%B6%81%20Developer%20Circle.md)
+2018/06/26 포스트를 옮겨 옵니다. [원문 링크](https://github.com/bluelion2/bluelion2.github/blob/master/_posts/2018-06-23-%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%B6%81%20Developer%20Circle.md)
 
 6/22일 강남 역삼 페이스북 코리아에서 열렸던 Developer Circles from facebook에 다녀왔습니다.
 
