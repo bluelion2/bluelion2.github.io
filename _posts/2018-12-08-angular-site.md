@@ -2,7 +2,7 @@
 layout: post
 title: "angular site link"
 subtitle: ""
-categories: tip
+categories: devlog
 tags: angular
 comments: true
 ---
