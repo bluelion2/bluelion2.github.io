@@ -25,7 +25,7 @@
 
     - Project
         - 외주업체로 부터 받은 사이트의 유지 및 보수 작업 진행을 하고 있습니다. 또한 고객 유치를 위한 신규 프로젝트 기획에도 같이 참여하고 있습니다.
-            - [link - Fooding](www.fooding.io)
+            - [link - Fooding](https://www.fooding.io)
 
         - 현재 사이트를 관리하는 관리자 페이지를 제작하고 개선하고 있습니다.
             - 메뉴 및 브랜드, 고객정보 관리 정산, 배너 기능을 개발하고, 사용자의 요구에 맞춰 점차 개선하고 있습니다.
@@ -35,7 +35,7 @@
 
     - Project
         - 모바일로도 쉽게 여행상품을 예약할 수 있게 IONIC3를 이용해 하이브리드 웹앱을 개발하였습니다.
-        - [link - Tourbell](m.tourbell.co.kr)
+        - [link - Tourbell](https://m.tourbell.co.kr)
 
 
 ## 교육
