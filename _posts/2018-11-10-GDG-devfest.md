@@ -2,7 +2,7 @@
 layout: post
 title: "GDG Devfest review"
 subtitle: ""
-categories: devlog
+categories: essay
 tags: web
 comments: true
 ---
