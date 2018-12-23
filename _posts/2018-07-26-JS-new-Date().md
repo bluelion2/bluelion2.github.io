@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "JS new Date()"
-subtitle: "Safari 브라우져의 예상못한 오류"
+title: 'JS new Date()'
+subtitle: 'Safari 브라우져의 예상못한 오류'
 categories: devlog
 tags: javascript
 comments: true

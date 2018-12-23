@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "angular site link"
-subtitle: ""
+title: 'angular site link'
+subtitle: ''
 categories: devlog
 tags: angular
 comments: true

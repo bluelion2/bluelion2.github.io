@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "angular youtube link"
-subtitle: ""
+title: 'angular youtube link'
+subtitle: ''
 categories: video
 tags: angular
 comments: true

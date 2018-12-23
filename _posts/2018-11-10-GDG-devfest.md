@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "GDG Devfest review"
-subtitle: ""
+title: 'GDG Devfest review'
+subtitle: ''
 categories: essay
 tags: review
 comments: true
