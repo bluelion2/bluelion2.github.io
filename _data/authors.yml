@@ -10,11 +10,11 @@ bluelion2:
   about:             안녕하세요. 프론트엔드 개발자 강승훈 입니다.
   # This photo will be used in the about section
   picture:
-    src:             /assets/img/beer.png
+    src:             /assets/img/latte.jpeg
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            /assets/img/beer.png
-      2x:            /assets/img/beer.png
+      1x:            /assets/img/latte.jpeg
+      2x:            /assets/img/latte.jpeg
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
