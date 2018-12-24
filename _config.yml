@@ -2,18 +2,18 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               SH's blog
+title:               Code & Coffee
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
-url:                 https://bluelion2.github.io
+url:                 https://code-barista.github.io/
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
-baseurl:             ""
+baseurl:             "https://code-barista.github.io/"
 
 # A very short description of your page
-tagline:             커피와 책을 좋아하는 개발자 입니다.
+tagline:             Code & Coffee
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
@@ -48,7 +48,7 @@ google_fonts:        Lato
 google_analytics:    UA-92346434-1
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
-disqus_shortname:    Bluelion2
+disqus_shortname:    kangseunghun
 
 # This text will appear in the footer of every page. Markdown enabled.
 copyright:           '&copy; 2017. by isme2n'
