@@ -13,7 +13,7 @@ url:                 https://bluelion2.github.io
 baseurl:             ""
 
 # A very short description of your page
-tagline:             Code-Barista
+tagline:             Code Barista
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
@@ -45,7 +45,7 @@ google_fonts:        Lato
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:    UA-92346434-1
+# google_analytics:    UA-92346434-1
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
 disqus_shortname:    kangseunghun
