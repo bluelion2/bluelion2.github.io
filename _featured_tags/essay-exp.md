@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: History
+title: 주간회고
 slug: history
 category: essay
 menu: false
