@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Review
-slug: review
-category: essay
+title: Exp
+slug: exp
+category: exp
 menu: false
 order: 1
 ---
