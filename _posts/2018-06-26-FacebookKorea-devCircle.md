@@ -2,8 +2,8 @@
 layout: post
 title: 'Facebook Korea dev Circle'
 subtitle: ''
-categories: essay
-tags: review
+categories: exp
+tags: exp
 comments: true
 ---
 

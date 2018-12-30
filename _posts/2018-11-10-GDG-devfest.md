@@ -2,8 +2,8 @@
 layout: post
 title: 'GDG Devfest review'
 subtitle: ''
-categories: essay
-tags: review
+categories: exp
+tags: exp
 comments: true
 ---
 
