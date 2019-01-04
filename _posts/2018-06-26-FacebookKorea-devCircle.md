@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'Facebook Korea dev Circle'
-subtitle: ''
-categories: exp
-tags: exp
+title: "Facebook Korea dev Circle"
+subtitle: ""
+categories: essay
+tags: review
 comments: true
 ---
 
@@ -99,7 +99,7 @@ Facebook AR Studio를 통해서 여러가지 재밋는 것들을 만들수 있�
 
 ---
 
-사실 밥준다 해서 참여한 생사인데, 저 같은 초보 개발자에게 밥보다도 더 좋은 발표와 의견을 많이 들을 수 있었습니다.
+사실 밥준다 해서 참여한 행사인데, 저 같은 초보 개발자에게 밥보다도 더 좋은 발표와 의견을 많이 들을 수 있었습니다.
 
 그리고, AR기능은 나중에 꼭 사용해 봐야 할거 같네요.
 
