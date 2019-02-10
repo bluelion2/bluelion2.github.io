@@ -79,7 +79,7 @@ install 한 뒤, environment.ts에 firebase key를 붙입니다.
 
 app.module.ts에서 불러오면 됩니다.
 
-![appmodule](https://user-images.githubusercontent.com/34129711/52530984-c0195f80-2d51-11e9-8045-71924ca50120.png)
+![app-module](https://user-images.githubusercontent.com/34129711/52530984-c0195f80-2d51-11e9-8045-71924ca50120.png)
 
 초기화 외에, 인증 등 필요한 기능은 app.module.ts에서 imports에 넣어서 쓰시면 됩니다.
 
@@ -101,3 +101,8 @@ $ firebase deploy
 ---
 
 마지막으로 deploy하면, deploy한 뒤 console창에 해당 url이 나옵니다.
+
+
+참고자료 : [Google Firebase 문서](https://firebase.google.com/docs/)
+
+[angular/fire](https://www.npmjs.com/package/@angular/fire)
