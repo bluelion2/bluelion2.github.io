@@ -1,5 +1,13 @@
-# 19.04.26 오늘의 글
+---
+layout: post
+title: '좋은 퍼블리셔란 무엇일까?'
+subtitle: ''
+categories: daily_read
+tags: daily_read
+comments: true
+---
 
+# 19.04.26 오늘의 글
 
 [좋은 퍼블리셔란 무엇일까?](http://woowabros.github.io/woowabros/2016/07/15/good_publisher.html)
 

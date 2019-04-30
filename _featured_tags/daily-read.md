@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Daily read
-slug: daily read
-category: daily read
+title: Daily_read
+slug: daily_read
+category: daily_read
 menu: false
 order: 1
 ---

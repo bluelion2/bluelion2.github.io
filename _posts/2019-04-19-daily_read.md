@@ -1,5 +1,14 @@
-# 19.04.19 오늘의 글
+---
+layout: post
+title: '질문을 잘하는 개밟자'
+subtitle: ''
+categories: daily_read
+tags: daily_read
+comments: true
+---
 
+
+# 19.04.19 오늘의 글
 
 [질문을 잘하는 개발자](https://jbee.io/essay/good_questionor/)
 

@@ -1,3 +1,12 @@
+---
+layout: post
+title: 'Map vs forEach'
+subtitle: ''
+categories: daily_read
+tags: daily_read
+comments: true
+---
+
 # 19.04.22 오늘의 글
 
 
