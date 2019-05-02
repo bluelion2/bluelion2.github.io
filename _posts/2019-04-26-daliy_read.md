@@ -1,7 +1,6 @@
 ---
 layout: post
 title: '좋은 퍼블리셔란 무엇일까?'
-subtitle: ''
 categories: daily_read
 tags: daily_read
 comments: true

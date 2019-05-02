@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: Coding-test
+title: Coding_test
 slug: coding_test
 category: coding_test
 menu: false

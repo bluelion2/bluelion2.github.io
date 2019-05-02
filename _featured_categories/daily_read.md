@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Daily_Read
-slug: Daily_Read
+slug: daily_read
 menu: true
 submenu: true
 order: 8
