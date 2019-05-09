@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: 정치
-slug: politics
+title: 일상
+slug: daily
 category: essay
 menu: false
 order: 1
