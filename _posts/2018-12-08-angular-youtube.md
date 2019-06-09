@@ -2,7 +2,7 @@
 layout: post
 title: 'angular youtube link'
 subtitle: ''
-categories: video
+categories: devlog
 tags: angular
 comments: true
 ---
