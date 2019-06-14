@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'react-native link'
+title: 'React Native link 저장소'
 subtitle: ''
 categories: devlog
 tags: react-native
