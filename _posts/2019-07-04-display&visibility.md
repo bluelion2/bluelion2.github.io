@@ -1,7 +1,7 @@
 ---
 layout: post
-title: '이미지 맵 태그'
-subtitle: '쉽고 빠르게 이메일 광고 버튼만들기'
+title: 'Display: none과 visibility: hidden의 차이'
+subtitle: ''
 categories: devlog
 tags: javascript
 comments: true
