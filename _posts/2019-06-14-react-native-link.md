@@ -23,6 +23,7 @@ React native Project를 진행하면서 도움을 받은 페이지들 입니다.
 
 - [TDD 개발 방법론을 활용한 React Native 앱 개발](https://www.inflearn.com/course/React-TDD/dashboard)
 
+- [kern yoo's blog](https://medium.com/@trustyoo86)
 ---
 
 좋은 자료를 구할 때 마다 계속 업데이트 하겠습니다.!
