@@ -64,7 +64,7 @@ Safari에서 테스트를 안해봤지만, 같은 코드이길래 당연히 똑�
 
     하지만, Safari, Explorer에서는 인식을 못해서, 결과값을 NaN으로만 반환할 뿐이죠.
 
-    Ex) "201-07-26"
+    Ex) "2019-07-26"
 
     참고 : https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date/parse
 
