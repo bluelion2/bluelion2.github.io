@@ -35,7 +35,7 @@ draft: false
 
 - Mobx의 공식 문서에서 설명하는 동작 원리이다. 행위(actions)를 통해 상태(state)를 변화시키고, 상태가 변경시 파생(derivvation), 재행동(Reaction)을 일으킴으로써 해야 할 행위들을 하게 된다.
 
-- 파생 및 state가 변경되는것을 중간에 가로체서 처리하거나, 하나의 state가 바뀌면 다른 행위 및 state가 연쇄적으로 바뀌는 것 또한 가능하다.
+- 파생 및 state가 변경되는것을 중간에 가로채서 처리하거나, 하나의 state가 바뀌면 다른 행위 및 state가 연쇄적으로 바뀌는 것 또한 가능하다.
 
 - [Mobx - getting start](https://mobx.js.org/getting-started)
 
@@ -70,7 +70,7 @@ draft: false
 
 #### 1) Store
 
-- `Store` Class를 생성시 Contructor에서 `makeObservable()` 을 통해 해당 속성이 관찰 해야하는 값인지를 명시해준다. extends 하는 값이 없다면 `makeAutoObsevable()`을 사용해도 편하다.
+- `Store` Class를 생성시 Contructor에서 `makeObservable()` 을 통해 해당 속성이 관찰 해야하는 값인지를 명시해준다. extends 하는 값이 없다면 `makeAutoObsevable()`을 사용해서 자동으로 값과 메서드를 `관찰가능한`상태로 만들 수 있다.
 
   - 클레스 필드인 `value`는 observable, 메서드인 `increase()`는 action으로 구분짓는다.
 
@@ -115,9 +115,14 @@ draft: false
   var $mobx = /*#__PURE__*/Symbol("mobx administration");
   ```
 
-  makeObservable은 첫번째 인자로 this를 받으며(class 자신) 두번째 인자로 객체를 받는데, 관찰할 대상의 속성, 메서드, 클래스 필드명은 키로 가지면서 값으로는 mobx 내장 함수를 받는다.
+  makeObservable은 첫번째 인자로 this를 받으며(객체 자신), 두번째 인자로 객체를 받는데, 관찰할 대상의 속성, 메서드, 클래스 필드명은 키로 가지면서 값으로는 mobx 내장 함수를 받는다.
 
   ![code](https://user-images.githubusercontent.com/34129711/123287654-d9e62680-d549-11eb-9022-640c03a0af03.png)
+
+  내부에서, 중복되는 `observable`값인지 검증하고, 등록이 되지 않은 값들만 관찰할 수 있게 등록을 한다.
+  `makeObservable()` 함수를 통해서 받은 값을 관찰 할수 있는 option들이 달린`ObservableObjectAdministration` symbol값과 부수적인 함수들을 추가해서 해당 값들을 관리한다. 마지막으로는 처음 받은 this를 그대로 리턴해준다.
+
+  ![스크린샷 2021-06-24 오후 11 58 17](https://user-images.githubusercontent.com/34129711/123285537-1a44a500-d548-11eb-8764-11aeb97a3bab.png)
 
   ```
   var keys = ownKeys({ a: 10, b: false })
@@ -130,7 +135,7 @@ draft: false
     - Object.getOwnPropertyNames : 지정된 객체에서 직접 찾은 모든 속성 (Symbol을 사용하는 속성을 제외하고 열거 할 수없는 속성 포함)의 배열을 리턴하는 함수.
     - Object.getOwnPropertySymbol : 객체에서 직접 찾은 모든 심볼 속성의 배열을 반환
 
-  - `console.log(store)`를 보면 `makeObservable()` 함수를 통해서 받은 값을 관찰 할수 있는 option들이 달린`ObservableObjectAdministration` symbol이 추가되어 있다.
+  - `console.log(store)`를 보면 `makeObservable()` 함수를 통해서 받은 값을 관찰 할수 있는 option들이 달린`target_ : ObservableObjectAdministration` symbol이 추가되어 있다.
 
   ![스크린샷 2021-06-24 오후 11 58 17](https://user-images.githubusercontent.com/34129711/124349411-cc0b6200-dc29-11eb-8355-d298277fedc3.png)
 
@@ -150,7 +155,7 @@ draft: false
 
 - observable.box에서는 ObservableValue로 리턴을 해주는데, 해당 observableValue의 중요한 Set만을 보자.
 
-  - Set : 새로운 값이 바뀌었는지 비교하고, 바뀌었다면 새로운 값을 할당하려 한다.
+  - Set : 할당하기전 새로운 값이 바뀌었는지 비교한다.
 
     ![ObservableValue](https://user-images.githubusercontent.com/34129711/123627047-79f2c700-d84c-11eb-98ec-2d2018eea514.png)
 
@@ -166,11 +171,11 @@ draft: false
 
 - Mobx 내부에서 값이 바뀌었다고 해서, React가 다시 화면을 그리진 않는다.
 
-  ![mobx-state-change](https://user-images.githubusercontent.com/34129711/124350667-e5fc7300-dc30-11eb-96f9-93c30fd9a5f6.gif)
+  ![mobx-state-change](https://user-images.githubusercontent.com/34129711/124865125-152a3000-dff5-11eb-8737-35dc4adef9fc.gif)
 
 - Mobx를 React에서 쓸 때, `mobx-react`에서 제공하는 `observer(Component)`로 컴포넌트를 래핑함으로써
 
-- (내부적으로 쓰고 있기 때문에), 공식문서에서도 memo를 쓸 필요가 없다고 한다. memo를 통해 해당 컴포넌트를 리렌더 할지 결정된다.
+- (내부적으로 쓰고 있기 때문에), 공식문서에서도 memo를 쓸 필요가 없다고 한다. memo를 통해 해당 컴포넌트를 다시 그릴지 할지 결정된다.
 
   ![observer](https://user-images.githubusercontent.com/34129711/124350889-33c5ab00-dc32-11eb-83d6-b4a9cb670518.png)
 
