@@ -179,6 +179,9 @@ draft: false
 
   ![observer](https://user-images.githubusercontent.com/34129711/124350889-33c5ab00-dc32-11eb-83d6-b4a9cb670518.png)
 
+  [React 재조정](https://ko.reactjs.org/docs/reconciliation.html)
+  [Mobx - observer-vs-memo](https://mobx.js.org/react-integration.html#observer-vs-memo)
+
 ---
 
 ### 5. 결론
