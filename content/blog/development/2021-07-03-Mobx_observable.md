@@ -79,7 +79,6 @@ draft: false
     - `makeObservable` / `makeAutoObservable` / `observable`
 
       - `make(Auto)Observable`은 인자로 들어온 객체를 바로 변경하지만, `observable`의 경우 객체를 복제본을 만든다.
-      - Mobx 공식 가이드에서는 proxy보다 비proxy 관찰 값이 더 성능이 좋고, 디버깅이 편하기 때문에 `observable` 대신 `makeObservable` 을 쓰는것을 권고한다. (객체 observable은 Proxy 쓰면서..)
 
       ![use_proxy](https://user-images.githubusercontent.com/34129711/124352226-26142380-dc3a-11eb-9bcd-7cba2177253d.png)
 
