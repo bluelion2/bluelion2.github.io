@@ -128,11 +128,8 @@ draft: false
   console.log('keys', keys) // ['a', 'b']
   ```
 
-  - `Reflect`가 있으면 Reflect.ownKeys를, 없으면 Object 내장함수를 조합해서, 해당 객체에서 가지고 있는 속성을 리턴해주는 함수이다.
-
-    - Reflect API : 중간에서 가로챌 수 있는 JavaScript 작업에 대한 메서드를 제공하는 내장 객체이다.
-    - Object.getOwnPropertyNames : 지정된 객체에서 직접 찾은 모든 속성 (Symbol을 사용하는 속성을 제외하고 열거 할 수없는 속성 포함)의 배열을 리턴하는 함수.
-    - Object.getOwnPropertySymbol : 객체에서 직접 찾은 모든 심볼 속성의 배열을 반환
+  - Object.getOwnPropertyNames : 지정된 객체에서 직접 찾은 모든 속성 (Symbol을 사용하는 속성을 제외하고 열거 할 수없는 속성 포함)의 배열을 리턴하는 함수.
+  - Object.getOwnPropertySymbol : 객체에서 직접 찾은 모든 심볼 속성의 배열을 반환
 
   - `console.log(store)`를 보면 `makeObservable()` 함수를 통해서 받은 값을 관찰 할수 있는 option들이 달린`target_ : ObservableObjectAdministration` symbol이 추가되어 있다.
 
