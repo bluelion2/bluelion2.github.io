@@ -119,17 +119,9 @@ draft: false
   ![code](https://user-images.githubusercontent.com/34129711/123287654-d9e62680-d549-11eb-9022-640c03a0af03.png)
 
   내부에서, 중복되는 `observable`값인지 검증하고, 등록이 되지 않은 값들만 관찰할 수 있게 등록을 한다.
-  `makeObservable()` 함수를 통해서 받은 값을 관찰 할수 있는 option들이 달린`ObservableObjectAdministration` symbol값과 부수적인 함수들을 추가해서 해당 값들을 관리한다. 마지막으로는 처음 받은 this를 그대로 리턴해준다.
+  `makeObservable()` 함수를 통해서 받은 값을 관찰 할수 있는 option들이 달린`ObservableObjectAdministration` symbol값과 부수적인 함수들을 추가해서 해당 값들을 관리한다. 마지막으로는 this를 관찰가능한 값으로 수정해서 리턴해준다.
 
   ![스크린샷 2021-06-24 오후 11 58 17](https://user-images.githubusercontent.com/34129711/123285537-1a44a500-d548-11eb-8764-11aeb97a3bab.png)
-
-  ```
-  var keys = ownKeys({ a: 10, b: false })
-  console.log('keys', keys) // ['a', 'b']
-  ```
-
-  - Object.getOwnPropertyNames : 지정된 객체에서 직접 찾은 모든 속성 (Symbol을 사용하는 속성을 제외하고 열거 할 수없는 속성 포함)의 배열을 리턴하는 함수.
-  - Object.getOwnPropertySymbol : 객체에서 직접 찾은 모든 심볼 속성의 배열을 반환
 
   - `console.log(store)`를 보면 `makeObservable()` 함수를 통해서 받은 값을 관찰 할수 있는 option들이 달린`target_ : ObservableObjectAdministration` symbol이 추가되어 있다.
 
@@ -169,7 +161,7 @@ draft: false
 
   ![mobx-state-change](https://user-images.githubusercontent.com/34129711/124865125-152a3000-dff5-11eb-8737-35dc4adef9fc.gif)
 
-- Mobx를 React에서 쓸 때, `mobx-react`에서 제공하는 `observer(Component)`로 컴포넌트를 래핑함으로써
+- Mobx를 React에서 쓸 때, `mobx-react`에서 제공하는 `observer(Component)`로 컴포넌트를 래핑한다.
 
 - (내부적으로 쓰고 있기 때문에), 공식문서에서도 memo를 쓸 필요가 없다고 한다. memo를 통해 해당 컴포넌트를 다시 그릴지 할지 결정된다.
 
