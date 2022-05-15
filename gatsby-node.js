@@ -68,3 +68,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+// gatsby-node.js
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    node: {
+      fs: 'empty',
+    },
+  })
+}
